@@ -30,7 +30,7 @@ st.markdown("""
     <a href="https://loanpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: white;">
         <button style="background-color: #007bff; border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
             
-            Visit Project
+            # Visit Project
         </button>
     </a>
 </div>
