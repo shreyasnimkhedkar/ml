@@ -1,7 +1,4 @@
 import streamlit as st
-from streamlit_card import card
-
-
 
 st.title("WELCOME TO SHREYAS NIMKHEDKAR PROJECTS")
 
@@ -20,9 +17,15 @@ st.write('''
 4. Power BI: Developing intuitive dashboards to visualize key business metrics and insights effectively.
 ''')
 
-
-card(
-    title="Shreyas Project",
-    text="click this card for Python Projects",
-    url = "https://customerchurnpredition.streamlit.app/",
-)
+# Custom Card-Like Design
+st.markdown("""
+<div style="border: 2px solid #ccc; border-radius: 10px; padding: 15px; margin: 20px 0; background-color: #f9f9f9;">
+    <h3 style="color: #333;">Shreyas Project</h3>
+    <p style="color: #555;">Click this card for Python Projects</p>
+    <a href="https://customerchurnpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: white;">
+        <button style="background-color: #007bff; border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+            Visit Project
+        </button>
+    </a>
+</div>
+""", unsafe_allow_html=True)
