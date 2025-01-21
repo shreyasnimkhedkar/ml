@@ -29,15 +29,22 @@ st.markdown("""
     <p style="color: #555;">Click this card for loan predition Projects</p>
     <a href="https://loanpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: white;">
         <button style="background-color: #007bff; border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+            
+            Visit Project
+        </button>
+    </a>
+</div>
+""", unsafe_allow_html=True)
 
+st.markdown("""
 <div style="border: 2px solid #ccc; border-radius: 10px; padding: 15px; margin: 20px 0; background-color: #f9f9f9;">
     <h3 style="color: #333;">Shreyas Project</h3>
     <p style="color: #555;">Click this card for customer churn predition Projects</p>
     <a href="https://customerchurnpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: white;">
         <button style="background-color: #007bff; border: none; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
-            
-            Visit Project
-        </button>
+
+               Visit Project
+          </button>
     </a>
 </div>
 """, unsafe_allow_html=True)
