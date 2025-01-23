@@ -3,29 +3,29 @@ import streamlit as st
 # Title
 st.title("Welcome to Shreyas Nimkhedkar's Machine Learning Projects")
 
-# Introduction
+# Description
 st.write("""
-Explore my projects below:
-- **Loan Prediction Project**
-- **Customer Churn Prediction Project**
+Explore some of my exciting projects:
+- **Loan Prediction Project**: Predict loan approvals based on customer data.
+- **Customer Churn Prediction Project**: Analyze customer behavior to predict churn.
 """)
 
-# Create Link Cards using HTML
+# HTML for the cards
 st.markdown("""
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
 
-    <!-- Loan Prediction Project Card -->
-    <div style="background-color: #1e90ff; color: white; padding: 20px; border-radius: 10px; width: 40%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+    <!-- Loan Prediction Project -->
+    <div style="background-color: #4CAF50; color: white; padding: 20px; border-radius: 10px; width: 45%; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
         <h3>Loan Prediction Project</h3>
         <p>Predict loan approvals based on customer data.</p>
-        <a href="https://loanprediction.streamlit.app/" target="_blank" style="text-decoration: none; color: #fff; background-color: #0a5bff; padding: 10px 20px; border-radius: 5px;">Visit App</a>
+        <a href="https://loanprediction.streamlit.app/" target="_blank" style="text-decoration: none; color: #fff; background-color: #2e7d32; padding: 10px 15px; border-radius: 5px;">Visit App</a>
     </div>
 
-    <!-- Customer Churn Prediction Project Card -->
-    <div style="background-color: #ff4500; color: white; padding: 20px; border-radius: 10px; width: 40%; text-align: center; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+    <!-- Customer Churn Prediction Project -->
+    <div style="background-color: #FF5722; color: white; padding: 20px; border-radius: 10px; width: 45%; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
         <h3>Customer Churn Prediction Project</h3>
         <p>Analyze customer behavior to predict churn.</p>
-        <a href="https://customerchurnpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: #fff; background-color: #ff2500; padding: 10px 20px; border-radius: 5px;">Visit App</a>
+        <a href="https://customerchurnpredition.streamlit.app/" target="_blank" style="text-decoration: none; color: #fff; background-color: #bf360c; padding: 10px 15px; border-radius: 5px;">Visit App</a>
     </div>
 
 </div>
